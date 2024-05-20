@@ -15,6 +15,8 @@
 		9DA8DA422BFB74D8005091CB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8DA412BFB74D8005091CB /* User.swift */; };
 		9DA8DA442BFB752E005091CB /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8DA432BFB752E005091CB /* Order.swift */; };
 		9DA8DA462BFB764A005091CB /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8DA452BFB764A005091CB /* Position.swift */; };
+		9DA8DA492BFB7892005091CB /* JSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8DA482BFB7891005091CB /* JSONLoader.swift */; };
+		9DA8DA4B2BFB7B76005091CB /* ProductJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 9DA8DA4A2BFB7B76005091CB /* ProductJSON.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		9DA8DA412BFB74D8005091CB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		9DA8DA432BFB752E005091CB /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		9DA8DA452BFB764A005091CB /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
+		9DA8DA482BFB7891005091CB /* JSONLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONLoader.swift; sourceTree = "<group>"; };
+		9DA8DA4A2BFB7B76005091CB /* ProductJSON.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ProductJSON.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,7 @@
 		9DA8DA2F2BFB6A55005091CB /* Arbuz_HW */ = {
 			isa = PBXGroup;
 			children = (
+				9DA8DA472BFB787E005091CB /* Data */,
 				9DA8DA3E2BFB72C1005091CB /* Model */,
 				9DA8DA302BFB6A55005091CB /* Arbuz_HWApp.swift */,
 				9DA8DA322BFB6A55005091CB /* ContentView.swift */,
@@ -85,6 +90,15 @@
 				9DA8DA452BFB764A005091CB /* Position.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		9DA8DA472BFB787E005091CB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9DA8DA482BFB7891005091CB /* JSONLoader.swift */,
+				9DA8DA4A2BFB7B76005091CB /* ProductJSON.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DA8DA382BFB6A58005091CB /* Preview Assets.xcassets in Resources */,
+				9DA8DA4B2BFB7B76005091CB /* ProductJSON.json in Resources */,
 				9DA8DA352BFB6A58005091CB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -163,6 +178,7 @@
 				9DA8DA442BFB752E005091CB /* Order.swift in Sources */,
 				9DA8DA312BFB6A55005091CB /* Arbuz_HWApp.swift in Sources */,
 				9DA8DA402BFB72CA005091CB /* Product.swift in Sources */,
+				9DA8DA492BFB7892005091CB /* JSONLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

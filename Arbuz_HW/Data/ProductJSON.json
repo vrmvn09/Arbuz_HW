@@ -1,0 +1,263 @@
+[
+    {
+        "name": "Бананы",
+        "imageName": "banana",
+        "price": 1200,
+        "description": "10",
+        "itemsCount": 20,
+        "backgroundColor" : "lightYellow",
+        "productType": "Фрукты",
+        "categoryType": "Бананы"
+    },
+    {
+        "name": "Яблоки желтые",
+        "imageName": "yellowApple",
+        "price": 600,
+        "description": "10",
+        "itemsCount": 4,
+        "backgroundColor" : "lightYellow",
+        "productType": "Фрукты",
+        "categoryType": "Яблоки"
+    },
+    {
+        "name": "Яблоки зеленые",
+        "imageName": "greenApple",
+        "price": 750,
+        "description": "10",
+        "itemsCount": 6,
+        "backgroundColor" : "lightGreen",
+        "productType": "Фрукты",
+        "categoryType": "Яблоки"
+    },
+    {
+        "name": "Груши желтые",
+        "imageName": "yellowPear",
+        "price": 700,
+        "description": "10",
+        "itemsCount": 3,
+        "backgroundColor" : "lightYellow",
+        "productType": "Фрукты",
+        "categoryType": "Груши"
+    },
+    {
+        "name": "Лимоны",
+        "imageName": "lemon",
+        "price": 550,
+        "description": "10",
+        "itemsCount": 10,
+        "backgroundColor" : "lightYellow",
+        "productType": "Фрукты",
+        "categoryType": "Цитрусовые"
+    },
+    {
+        "name": "Лайм",
+        "imageName": "lime",
+        "price": 1100,
+        "description": "10",
+        "itemsCount": 15,
+        "backgroundColor" : "lightGreen",
+        "productType": "Фрукты",
+        "categoryType": "Цитрусовые"
+    },
+    {
+        "name": "Апельсины",
+        "imageName": "orange",
+        "price": 1350,
+        "description": "10",
+        "itemsCount": 4,
+        "backgroundColor" : "lightOrange",
+        "productType": "Фрукты",
+        "categoryType": "Цитрусовые"
+    },
+    {
+        "name": "Виноград зеленый",
+        "imageName": "greenGrape",
+        "price": 1760,
+        "description": "10",
+        "itemsCount": 1,
+        "backgroundColor" : "lightGreen",
+        "productType": "Фрукты",
+        "categoryType": "Виноград"
+    },
+    {
+        "name": "Виноград Кишмиш черный",
+        "imageName": "blackGrape",
+        "price": 2100,
+        "description": "lightRed",
+        "itemsCount": 0,
+        "backgroundColor" : "lightRed",
+        "productType": "Фрукты",
+        "categoryType": "Виноград"
+    },
+    {
+        "name": "Киви",
+        "imageName": "kiwi",
+        "price": 1890,
+        "description": "10",
+        "itemsCount": 17,
+        "backgroundColor" : "lightGreen",
+        "productType": "Фрукты",
+        "categoryType": "Другие"
+    },
+    {
+        "name": "Мандарины",
+        "imageName": "orange",
+        "price": 1990,
+        "description": "10",
+        "itemsCount": 90,
+        "backgroundColor" : "lightOrange",
+        "productType": "Фрукты",
+        "categoryType": "Цитрусовые"
+    },
+    {
+        "name": "Картофель Ариель",
+        "imageName": "arielPotato",
+        "price": 1150,
+        "description": "10",
+        "itemsCount": 78,
+        "backgroundColor" : "lightYellow",
+        "productType": "Овощи",
+        "categoryType": "Картофель"
+    },
+    {
+        "name": "Картофель ГалаАриель",
+        "imageName": "galaPotato",
+        "price": 990,
+        "description": "10",
+        "itemsCount": 46,
+        "backgroundColor" : "lightYellow",
+        "productType": "Овощи",
+        "categoryType": "Картофель"
+    },
+    {
+        "name": "Картофель ГалаАриель Импала",
+        "imageName": "galaPotato",
+        "price": 340,
+        "description": "10",
+        "itemsCount": 3,
+        "backgroundColor" : "lightYellow",
+        "productType": "Овощи",
+        "categoryType": "Картофель"
+    },
+    {
+        "name": "Картофель Импала",
+        "imageName": "impalaPotato",
+        "price": 1660,
+        "description": "10",
+        "itemsCount": 0,
+        "backgroundColor" : "lightYellow",
+        "productType": "Овощи",
+        "categoryType": "Картофель"
+    },
+    {
+        "name": "Картофель Ред скарлет",
+        "imageName": "redScarletPotato",
+        "price": 1600,
+        "description": "10",
+        "itemsCount": 45,
+        "backgroundColor" : "lightRed",
+        "productType": "Овощи",
+        "categoryType": "Картофель"
+    },
+    {
+        "name": "Капуста белокочанная",
+        "imageName": "whiteCabbage",
+        "price": 950,
+        "description": "10",
+        "itemsCount": 43,
+        "backgroundColor" : "lightGreen",
+        "productType": "Овощи",
+        "categoryType": "Капуста"
+    },
+    {
+        "name": "Капуста краснокочанная",
+        "imageName": "redCabbage",
+        "price": 890,
+        "description": "10",
+        "itemsCount": 4,
+        "backgroundColor" : "lightRed",
+        "productType": "Овощи",
+        "categoryType": "Капуста"
+    },
+    {
+        "name": "Цветная капуста",
+        "imageName": "cauliflower",
+        "price": 950,
+        "description": "10",
+        "itemsCount": 65,
+        "backgroundColor" : "lightGray",
+        "productType": "Овощи",
+        "categoryType": "Капуста"
+    },
+    {
+        "name": "Брокколи",
+        "imageName": "broccoli",
+        "price": 3150,
+        "description": "10",
+        "itemsCount": 4,
+        "backgroundColor" : "lightGreen",
+        "productType": "Овощи",
+        "categoryType": "Капуста"
+    },
+    {
+        "name": "Брюссельская капуста",
+        "imageName": "brusselSprouts",
+        "price": 2330,
+        "description": "10",
+        "itemsCount": 99,
+        "backgroundColor" : "lightGreen",
+        "productType": "Овощи",
+        "categoryType": "Капуста"
+    },
+    {
+        "name": "Молоко 2.5% ультрапастеризованное Домик в деревне т/п 925мл",
+        "imageName": "homeMilk2.5",
+        "price": 1450,
+        "description": "10",
+        "itemsCount": 2,
+        "backgroundColor" : "lightGray",
+        "productType": "Молочные продукты",
+        "categoryType": "Молоко"
+    },
+    {
+        "name": "Молоко Простоквашино ультрапастеризованное 3,2 950 мл",
+        "imageName": "proMilk3.2",
+        "price": 960,
+        "description": "10",
+        "itemsCount": 66,
+        "backgroundColor" : "lightGray",
+        "productType": "Молочные продукты",
+        "categoryType": "Молоко"
+    },
+    {
+        "name": "Молоко Простоквашино ультрапастеризованное 2.5 2 950 мл",
+        "imageName": "proMilk2.5",
+        "price": 840,
+        "description": "10",
+        "itemsCount": 88,
+        "backgroundColor" : "lightGray",
+        "productType": "Молочные продукты",
+        "categoryType": "Молоко"
+    },
+    {
+        "name": "Lactel ФМ Молоко с витамином D 2,5%",
+        "imageName": "lactel2.5",
+        "price": 780,
+        "description": "10",
+        "itemsCount": 1,
+        "backgroundColor" : "lightGray",
+        "productType": "Молочные продукты",
+        "categoryType": "Молоко"
+    },
+    {
+        "name": "Молоко 7.1% концентрированное стерилизованное Шадринское т/п 300г",
+        "imageName": "ShadMilk7.1",
+        "price": 910,
+        "description": "10",
+        "itemsCount": 4,
+        "backgroundColor" : "lightGray",
+        "productType": "Молочные продукты",
+        "categoryType": "Молоко"
+    },
+]
+
