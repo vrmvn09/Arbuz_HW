@@ -13,7 +13,7 @@ struct ProfileView: View {
     var body: some View {
         NavigationView {
             // User card
-            if viewModel.orderList.isEmpty {
+            if viewModel.ordersList.isEmpty {
                 VStack(alignment: .center, spacing: 8) {
                     Spacer()
                     Text("Ваша профиль заказов пуст!")
@@ -30,7 +30,7 @@ struct ProfileView: View {
                 ScrollView {
                     VStack(spacing: 20) {
                         VStack(spacing: 8) {
-                            ForEach(viewModel.orderList) { order in
+                            ForEach(viewModel.ordersList) { order in
                                 ProfileCell(order: order)
                             }
                         }

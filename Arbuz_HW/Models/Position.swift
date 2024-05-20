@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Postion: Identifiable {
+struct Position: Identifiable {
     var id = UUID()
     var product: Product
     var count: Int

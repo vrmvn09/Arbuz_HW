@@ -37,3 +37,29 @@ class FormComponent: FormItem, Identifiable {
         self.validations = validations
     }
 }
+
+final class TextFormComponent: FormComponent {
+    let placeholder: String
+    let keyboardType: UIKeyboardType
+    
+    init(id: FormField,
+         placeholder: String,
+         keyboardType: UIKeyboardType = .default,
+         validations: [ValidationManager] = []
+    ) {
+        self.placeholder = placeholder
+        self.keyboardType = keyboardType
+        super.init(id, validations: validations)
+    }
+}
+
+final class ButtonFormComponent: FormComponent {
+    let title: String
+    
+    init(id: FormField, title: String) {
+        self.title = title
+        super.init(id)
+    }
+}
+
+

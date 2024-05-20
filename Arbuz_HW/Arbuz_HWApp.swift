@@ -9,9 +9,18 @@ import SwiftUI
 
 @main
 struct Arbuz_HWApp: App {
+    let parserViewModel = ParserViewModel()
+    @AppStorage("isOnboarding") private var isOnboarding = true
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if isOnboarding {
+                OnboardingView()
+                    .environmentObject(parserViewModel)
+            } else {
+                BottomNavigationBar()
+                    .environmentObject(parserViewModel)
+            }
         }
+        
     }
 }

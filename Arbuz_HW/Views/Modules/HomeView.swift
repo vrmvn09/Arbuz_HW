@@ -35,7 +35,7 @@ struct HomeView: View {
                 }
                 .foregroundColor(.black)
             }
-            .navigationBarTitle("Arbuz")
+            .navigationBarTitle("Arbuz_HW")
             .navigationBarTitleDisplayMode(.inline)
             .navigationBarBackButtonHidden()
             .frame(maxWidth: .infinity)

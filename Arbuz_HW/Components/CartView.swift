@@ -7,7 +7,9 @@
 
 import SwiftUI
 
-struct BottomNavigationBar: View {
+struct CartView: View {
+    @StateObject var viewModel: CartViewModel
+    
     var body: some View {
         NavigationView {
             if viewModel.positions.isEmpty {
@@ -29,8 +31,7 @@ struct BottomNavigationBar: View {
                         VStack(spacing: 8) {
                             ForEach(viewModel.positions, id: \.id) { position in
                                 PositionCell(viewModel: CartViewModel.shared, count: position.count, position: position)
-                                //                            Divider()
-                                //                                .background(Color(Colors.lightGray.rawValue))
+                              
                             }
                         }
                         VStack(spacing: 20) {
@@ -63,9 +64,8 @@ struct BottomNavigationBar: View {
     }
 }
 
-struct BottomNavigationBar_Previews: PreviewProvider {
+struct CartView_Previews: PreviewProvider {
     static var previews: some View {
-        BottomNavigationBar()
-            .environmentObject(ParserViewModel())
+        CartView(viewModel: CartViewModel.shared)
     }
 }

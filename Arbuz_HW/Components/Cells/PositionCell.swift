@@ -121,9 +121,3 @@ struct PositionCell: View {
     }
 }
 
-
-//struct PositionCell_Previews: PreviewProvider {
-//    static var previews: some View {
-////        PositionCell(count: 12, position: Position(product: Product.mockData(), count: 12))
-//    }
-//}

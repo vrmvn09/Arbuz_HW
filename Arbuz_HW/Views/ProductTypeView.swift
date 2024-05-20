@@ -70,4 +70,3 @@ struct ProductTypeView_Previews: PreviewProvider {
             .padding(16)
     }
 }
-

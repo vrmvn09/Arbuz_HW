@@ -33,8 +33,9 @@ struct ProfileDetailView: View {
                     Text("Спасибо за подписку!")
                         .font(.title2)
                         .fontWeight(.bold)
-                    Text("Благодарим вас за доверие \n и возможность обеспечить вас свежими и вкусными молочными продуктами.")
+                    Text("Мы благодарим вас за выбор нашего магазина! У нас вы найдете свежие и качественные молочные продукты, овощи, фрукты и многое другое, которые обязательно порадуют ваш вкус.")
                         .foregroundColor(.gray)
+                        .font(.system(size: 10))
                         .font(.subheadline)
                 }
                 .multilineTextAlignment(.center)

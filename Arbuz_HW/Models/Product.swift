@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Product: Codable, Hashable {
+struct Product: Codable, Hashable, CategorizedProduct {
     var id = UUID()
     let name: String
     let imageName: String

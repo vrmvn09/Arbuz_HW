@@ -9,17 +9,17 @@ import Foundation
 
 struct Orders: Identifiable {
     var id = UUID()
-    var position: [Postion]
-    var user: User
-    var dayOfWeek: String
-    var timeInterval: String
-    var subscriptionPeriod: String
+    let positions: [Position]
+    let user: User
+    let dayOfWeek: String
+    let timeInterval: String
+    let subscriptionPeriod: String
     
     var cost: Int {
-        var totalcost: Int = 0
-        for i in position {
-            totalcost = totalcost * i.cost
+        var totalCost: Int = 0
+        for i in positions {
+            totalCost = totalCost + i.cost
         }
-        return totalcost
+        return totalCost
     }
 }
