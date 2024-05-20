@@ -44,9 +44,7 @@ Arbuz_HW предоставляет пользователям удобный и
 
 Для более подробного ознакомления с функционалом приложения вы можете посмотреть следующее видео:
 
-<div align="center">
-    <iframe src="https://drive.google.com/file/d/1RW4IFbNGA1d-FfwEjh5QX4p8J58ckrdq/view?usp=sharing" width="640" height="480" allow="autoplay"></iframe>
-</div>
+<iframe src="https://drive.google.com/file/d/1RW4IFbNGA1d-FfwEjh5QX4p8J58ckrdq/preview" width="640" height="480" allow="autoplay"></iframe>
 
 ## Автор
 
