@@ -46,10 +46,10 @@ Arbuz_HW предоставляет пользователям удобный и
 
 Для более подробного ознакомления с функционалом приложения вы можете посмотреть следующее видео:
 
-[Ссылка на видео](https://drive.google.com/drive/u/1/folders/1qKDgn7Y-nQEvoKF5IAxXMBAsnshIpcyY)
+[Demo App video](https://drive.google.com/drive/u/1/folders/1qKDgn7Y-nQEvoKF5IAxXMBAsnshIpcyY)
 
 ## Автор
 
-- Арман - [Ваш GitHub профиль](https://github.com/vrmvn09)
+- Арман - [GitHub](https://github.com/vrmvn09)
 
 
