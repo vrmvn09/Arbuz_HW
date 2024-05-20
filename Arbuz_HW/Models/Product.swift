@@ -28,14 +28,14 @@ struct Product: Codable, Hashable {
         case productType
         case categoryType
     }
-        static func mockData() -> Product {
-            return  .init(name: "Бананы",
-                          imageName: "banana",
-                          price: 1200,
-                          description: "",
-                          itemsCount: 20,
-                          backgroundColor: "lightYellow",
-                          productType: "Фрукты",
-                          categoryType: "Бананы")
-        }
+    static func mockData() -> Product {
+        return  .init(name: "Бананы",
+                      imageName: "banana",
+                      price: 1200,
+                      description: "",
+                      itemsCount: 20,
+                      backgroundColor: "lightYellow",
+                      productType: "Фрукты",
+                      categoryType: "Бананы")
+    }
 }
