@@ -42,11 +42,11 @@ Arbuz_HW предоставляет пользователям удобный и
 3. Нажать на продукт, чтобы увидеть подробную информацию о нем.
 4. Подписаться на обновления, чтобы получать уведомления о новых поступлениях и специальных предложениях.
 
-## Видео
-
 Для более подробного ознакомления с функционалом приложения вы можете посмотреть следующее видео:
 
-[Demo App video](https://drive.google.com/drive/u/1/folders/1qKDgn7Y-nQEvoKF5IAxXMBAsnshIpcyY)
+<div align="center">
+    <iframe src="https://drive.google.com/file/d/1RW4IFbNGA1d-FfwEjh5QX4p8J58ckrdq/view?usp=sharing" width="640" height="480" allow="autoplay"></iframe>
+</div>
 
 ## Автор
 
