@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D763EA52BFCB176007245E2 /* FavoritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D763EA42BFCB176007245E2 /* FavoritesViewModel.swift */; };
+		9D763EA72BFCB6B8007245E2 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D763EA62BFCB6B8007245E2 /* FavoritesView.swift */; };
+		9D763EAA2BFCB9FE007245E2 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D763EA92BFCB9FE007245E2 /* ProductCard.swift */; };
 		9DA8DA312BFB6A55005091CB /* Arbuz_HWApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8DA302BFB6A55005091CB /* Arbuz_HWApp.swift */; };
 		9DA8DA352BFB6A58005091CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA8DA342BFB6A58005091CB /* Assets.xcassets */; };
 		9DA8DA382BFB6A58005091CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA8DA372BFB6A58005091CB /* Preview Assets.xcassets */; };
@@ -51,6 +54,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D763EA42BFCB176007245E2 /* FavoritesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewModel.swift; sourceTree = "<group>"; };
+		9D763EA62BFCB6B8007245E2 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		9D763EA92BFCB9FE007245E2 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
 		9DA8DA2D2BFB6A55005091CB /* Arbuz_HW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arbuz_HW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DA8DA302BFB6A55005091CB /* Arbuz_HWApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arbuz_HWApp.swift; sourceTree = "<group>"; };
 		9DA8DA342BFB6A58005091CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -174,6 +180,7 @@
 				9DA8DA512BFB7C89005091CB /* ProductDetailViewModel.swift */,
 				9DA8DA532BFB7D00005091CB /* CartViewModel.swift */,
 				9DA8DA552BFB812A005091CB /* ParserViewModel.swift */,
+				9D763EA42BFCB176007245E2 /* FavoritesViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -185,6 +192,7 @@
 				9DA8DA6D2BFB8A6A005091CB /* Buttons */,
 				9DA8DA582BFB8451005091CB /* Cells */,
 				9DA8DA892BFB8E33005091CB /* CategoryCard.swift */,
+				9D763EA92BFCB9FE007245E2 /* ProductCard.swift */,
 				9DA8DA8B2BFB8E8C005091CB /* BottomNavigationBar.swift */,
 			);
 			path = Components;
@@ -317,6 +325,7 @@
 				9DA8DA922BFB8F1E005091CB /* HomeView.swift */,
 				9DA8DA942BFB8F6B005091CB /* ProfileView.swift */,
 				9DA8DA962BFB8F7A005091CB /* OnboardingView.swift */,
+				9D763EA62BFCB6B8007245E2 /* FavoritesView.swift */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -404,6 +413,7 @@
 			files = (
 				9DA8DA422BFB74D8005091CB /* User.swift in Sources */,
 				9DA8DA9A2BFB8FA4005091CB /* ProductDetailView.swift in Sources */,
+				9D763EA72BFCB6B8007245E2 /* FavoritesView.swift in Sources */,
 				9DA8DA6C2BFB89D5005091CB /* PriceButton.swift in Sources */,
 				9DA8DA5E2BFB84C7005091CB /* Images.swift in Sources */,
 				9DA8DA712BFB8AA7005091CB /* SecondaryButton.swift in Sources */,
@@ -420,9 +430,11 @@
 				9DA8DA7A2BFB8C0E005091CB /* FormContentBuilder.swift in Sources */,
 				9DA8DA972BFB8F7A005091CB /* OnboardingView.swift in Sources */,
 				9DA8DA642BFB852A005091CB /* ProductType.swift in Sources */,
+				9D763EA52BFCB176007245E2 /* FavoritesViewModel.swift in Sources */,
 				9DA8DA7E2BFB8C66005091CB /* ValidationError.swift in Sources */,
 				9DA8DA5A2BFB845B005091CB /* ProfileProductCell.swift in Sources */,
 				9DA8DA842BFB8CB9005091CB /* Regex.swift in Sources */,
+				9D763EAA2BFCB9FE007245E2 /* ProductCard.swift in Sources */,
 				9DA8DA772BFB8B51005091CB /* FormItem.swift in Sources */,
 				9DA8DAA02BFB9002005091CB /* OrderVIew.swift in Sources */,
 				9DA8DA442BFB752E005091CB /* Order.swift in Sources */,
@@ -580,7 +592,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -610,7 +622,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

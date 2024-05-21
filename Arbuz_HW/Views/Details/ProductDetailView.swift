@@ -7,18 +7,19 @@
 
 import SwiftUI
 
-
 struct ProductDetailView: View {
     var viewModel: ProductDetailViewModel
     @State private var count: Int
     @State private var isAddedToCart = false
+    @State private var isFavorite = false
     @Environment(\.presentationMode) var presentationMode
-    
+
     init(viewModel: ProductDetailViewModel) {
         self.viewModel = viewModel
         _count = State(initialValue: CartViewModel.shared.position(for: viewModel.product)?.count ?? 0)
+        _isFavorite = State(initialValue: FavoritesViewModel.shared.isFavorite(viewModel.product))
     }
-    
+
     var body: some View {
         ScrollView(showsIndicators: false) {
             VStack(spacing: 24) {
@@ -35,34 +36,39 @@ struct ProductDetailView: View {
                                 .fontWeight(.bold)
                                 .font(.title2)
                                 .lineLimit(2)
-                        }
-                        else {
+                        } else {
                             Text("\(viewModel.product.name), 1кг")
                                 .fontWeight(.bold)
                                 .font(.title2)
                                 .lineLimit(2)
                         }
                         Spacer()
+                        Button(action: {
+                            FavoritesViewModel.shared.toggleFavorite(viewModel.product)
+                            isFavorite.toggle()
+                        }) {
+                            Image(systemName: isFavorite ? "heart.fill" : "heart")
+                                .foregroundColor(isFavorite ? .red : .gray)
+                        }
                     }
                     if viewModel.product.itemsCount < 5 {
                         HStack {
                             PriceButton(title: "\(viewModel.product.price) тг", color: Colors.lightGreen.rawValue)
                             Spacer()
-                            Text("В началии всего: \(viewModel.product.itemsCount-count)")
+                            Text("В наличии всего: \(viewModel.product.itemsCount - count)")
                                 .font(.caption)
                                 .foregroundColor(.red.opacity(0.8))
                         }
-                    }
-                    else {
+                    } else {
                         PriceButton(title: "\(viewModel.product.price) тг", color: Colors.lightGreen.rawValue)
                     }
                 }
-                    VStack(alignment: .leading, spacing: 8) {
-                        Text("Описание")
-                            .foregroundColor(.gray)
-                        Text("Банан - это популярный фрукт с яркой желтой кожурой и мягким белесым мякотью. Бананы обладают сладким вкусом и кремовой текстурой, что делает их вкусным и питательным угощением.")
-                            .font(.subheadline)
-                    }
+                VStack(alignment: .leading, spacing: 8) {
+                    Text("Описание")
+                        .foregroundColor(.gray)
+                    Text("Банан - это популярный фрукт с яркой желтой кожурой и мягким белесым мякотью. Бананы обладают сладким вкусом и кремовой текстурой, что делает их вкусным и питательным угощением.")
+                        .font(.subheadline)
+                }
                 if isAddedToCart {
                     VStack {
                         HStack {
@@ -115,6 +121,7 @@ struct ProductDetailView: View {
                 count = position.count
                 isAddedToCart = true
             }
+            isFavorite = FavoritesViewModel.shared.isFavorite(viewModel.product)
         }
         .onDisappear {
             let position = Position(product: viewModel.product, count: count)
@@ -144,4 +151,3 @@ struct ProductDetailView_Previews: PreviewProvider {
         .padding(.horizontal, 16)
     }
 }
-

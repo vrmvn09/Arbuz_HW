@@ -101,8 +101,7 @@ struct OrderView: View {
     struct optionModifier: ViewModifier {
         func body(content: Content) -> some View {
             content
-                .font(.title3)
-                .fontWeight(.semibold)
+                .font(.system(size: 16, weight: .medium))
         }
     }
 }

@@ -48,7 +48,11 @@ struct ProductCell: View {
                         .lineLimit(1)
                 }
                 .padding(2)
-                .background(.white)
+                .background(
+                    Color.white
+                        .opacity(0.9)
+                        .cornerRadius(12)
+                )
                 .cornerRadius(12)
                 .padding(.horizontal, 4)
                 .padding(.bottom, 4)
@@ -60,7 +64,11 @@ struct ProductCell: View {
                         .frame(maxWidth: .infinity)
                 }
                 .padding(3)
-                .background(.white)
+                .background(
+                    Color.white
+                        .opacity(0.9)
+                        .cornerRadius(12)
+                )
                 .cornerRadius(12)
                 .padding(.horizontal, 4)
                 .padding(.bottom, 4)
@@ -74,7 +82,7 @@ struct ProductCell: View {
 
 struct ProductCell_Previews: PreviewProvider {
     static var previews: some View {
-        ProductCell(product: Product(name: "Бананы БананыБананыБананы", imageName: "banana", price: 19087, description: "", itemsCount: 0, backgroundColor: "lightGreen", productType: "Молочные продукты", categoryType: ""))
+        ProductCell(product: Product(name: "Бананы БананыБананыБананы", imageName: "banana", price: 19087, description: "", itemsCount: 0, backgroundColor: "lightGreen", productType: "Молочные продукты", categoryType: "")).edgesIgnoringSafeArea(.all)
     }
 }
 

@@ -17,7 +17,7 @@ struct Product: Codable, Hashable, CategorizedProduct {
     let backgroundColor: String
     let productType: String
     let categoryType: String
-    
+
     enum CodingKeys: String, CodingKey {
         case name
         case imageName

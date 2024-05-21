@@ -12,7 +12,6 @@ struct BottomNavigationBar: View {
         TabView {
             Group {
                 HomeView()
-
                     .tabItem {
                         Image(systemName: "house")
                         Text("Главная")
@@ -22,6 +21,12 @@ struct BottomNavigationBar: View {
                     .tabItem {
                         Image(systemName: "cart")
                         Text("Корзина")
+                    }
+                
+                FavoritesView() 
+                    .tabItem {
+                        Image(systemName: "heart")
+                        Text("Избранное")
                     }
                 
                 ProfileView(viewModel: CartViewModel.shared)
@@ -38,9 +43,7 @@ struct BottomNavigationBar: View {
             } else {
                 print("Failed to load JSON file.")
             }
-
         }
-
     }
 }
 

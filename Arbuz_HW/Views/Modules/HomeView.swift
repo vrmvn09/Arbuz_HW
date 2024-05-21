@@ -13,7 +13,7 @@ struct HomeView: View {
     var body: some View {
         NavigationView {
             ScrollView {
-                VStack(spacing: 8) {
+                VStack(spacing: 12) {
                     NavigationLink {
                         ProductTypeView(productType: viewModel.fruits)
                             .padding(.horizontal, 16)

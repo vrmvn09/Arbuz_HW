@@ -24,11 +24,12 @@ struct CategoryCard: View {
         }
         .frame(height: 135)
         .background(Color(color))
-            .overlay(content: {
+        .overlay(
             Image(imageStr)
                 .resizable()
                 .scaledToFill()
-        })
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+        )
         .cornerRadius(20)
     }
 }
